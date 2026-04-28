@@ -29,7 +29,7 @@ st.markdown("Fill in the customer details below to predict whether they are like
 col1, col2 = st.columns(2)
 
 with col1:
-    age = st.slider("🎂 Age", min_value=18, max_value=70, value=30)
+    age = st.slider("🎂 Age", min_value=18, max_value=34, value=30)
     frequent_flyer = st.selectbox("✈️ Frequent Flyer?", options=["No", "Yes"])
     annual_income = st.selectbox("💰 Annual Income Class",
                                   options=["Low Income", "Middle Income", "High Income"])
